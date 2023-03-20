@@ -1,0 +1,172 @@
+body {
+    background-color:rgb(32, 33, 33);
+    box-decoration-break: clone; 
+  }
+
+  #apartado1{
+    width:1490px;
+    height: 3800px;
+    border:5px double #f7a7ab;
+    border-radius: 30px 100px 30px 0px;
+  }
+  h1 {
+    padding-top: 20px;
+    color:  #ea3f47;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Kavoon', cursive;
+    font-size: 70px;
+  }
+
+  button {
+    background-color:#551014;
+    border: 4px solid #f7a7ab;  
+    font-family:'Paprika', cursive; 
+    color: #f7a7ab;
+    text-align: center; 
+    border-radius: 50px; 
+    width: 350px;
+    height: 15px;
+    margin-top: 40px;
+    padding: 25px;
+  }
+
+  h3{
+    color: #bd333a;
+    text-align: left;
+    margin-left: 500px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family:'Paprika', cursive;
+    font-size: 20px;
+  }
+  h4 {
+    color: #f7a7ab;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 20px;
+    font-family: 'Paprika', cursive;
+    font-size: 25px;
+  }
+  h5 {
+    color: #bd333a;
+    font-size: 25px;
+    font-family: 'Paprika', cursive;
+    margin-left: 50px;
+    margin-top: 80px;
+  }
+  h6 {
+      color: #ca6368;
+      font-size: 18px;
+      font-family: 'Paprika', cursive;
+      margin-left: 50px;
+  }
+  p{
+    color: #f7a7ab; 
+    text-align: left;
+    margin-left: 60px;
+    font-family: 'Paprika', cursive;
+    font-size: 15px;
+  }
+  #apartado2{
+   text-align: right;
+   margin-right: 25px;
+  }
+
+  #apartado3{
+    text-align: center;
+    margin-top: 100px;
+
+   }
+   #apartado4{
+    margin-top: 35px;
+  
+   }
+   #apartado5{
+    margin-top: 35px;
+   }
+
+   section {
+    padding: 10px;
+   }
+
+   .button, .fcc-btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    margin-bottom: 40px;
+    border: 1px solid #ca6368;
+    border-radius: 8px;
+    background: #bd333a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ca6368), to(#bd333a));
+    background: -moz-linear-gradient(top, #ca6368, #bd333a);
+    background: linear-gradient(to bottom, #ca6368, #bd333a);
+    -webkit-box-shadow: #ca6368 0px 0px 40px 0px;
+    -moz-box-shadow: #ca6368 0px 0px 40px 0px;
+    box-shadow: #bd333a 0px 0px 40px 0px;
+    text-shadow: #bd333a 1px 1px 1px;
+    font: normal normal bold 20px comic sans ms;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+    border: 1px solid #bd333a;
+    background: #ca6368;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ca6368), to(#bd333a));
+    background: -moz-linear-gradient(top, #ca6368, #bd333a);
+    background: linear-gradient(to bottom, #ca6368, #bd333a);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #bd333a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#bd333a), to(#0f766b));
+    background: -moz-linear-gradient(top, #bd333a, #bd333a);
+    background: linear-gradient(to bottom, #bd333a, #bd333a);
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAeklEQVRIie2TUQqAIBBEXyGduAt4rg7QnaK0LyVCF80V+nBg/9x5swPCkLJWwAJzL/ML8D0gT/MwVtPcZ6b5klRyNUiJ+ee6pFqaL6lJXg1pMS+qa0nMJpjtmZ0o8wIcCagTArnMTlSXLz8AA6CrqeCNEYI44NSL80fd3YteEVOrQKoAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+
+#apartado6{
+  background-color:#ca6368;
+  border: 4px solid #bd333a;
+  font-family:'Paprika', cursive;
+  text-align: center;
+  border-radius: 50px;
+  width:350px;
+  height:15px;
+  padding:20px;
+  margin-top: 30px;
+ 
+ }
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#apartado7{
+  background-color:#ca6368;
+  border: 4px double #bd333a;
+  font-family:'Paprika', cursive;
+  width: 1100px;
+  height: 100px;
+  margin-top: 35px;
+  margin-left: 200px;
+  border-radius: 0px 15px 0px 15px;
+  color: #551014;
+}
